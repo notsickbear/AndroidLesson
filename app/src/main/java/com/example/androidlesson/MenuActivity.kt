@@ -8,11 +8,7 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import com.example.androidlesson.databinding.ActivityMeanBinding
-import com.example.androidlesson.layoutFra.AbsoluteFragment
-import com.example.androidlesson.layoutFra.GridFragment
-import com.example.androidlesson.layoutFra.LinearFragment
-import com.example.androidlesson.layoutFra.RelativeFragment
-import com.example.androidlesson.layoutFra.TableFragment
+import com.example.androidlesson.layoutFra.*
 
 class MenuActivity : FragmentActivity() {
     private lateinit var binding: ActivityMeanBinding

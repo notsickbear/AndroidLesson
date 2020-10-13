@@ -1,11 +1,7 @@
 package com.example.androidlesson
 
 import androidx.fragment.app.Fragment
-import com.example.androidlesson.layoutFra.AbsoluteFragment
-import com.example.androidlesson.layoutFra.GridFragment
-import com.example.androidlesson.layoutFra.LinearFragment
-import com.example.androidlesson.layoutFra.RelativeFragment
-import com.example.androidlesson.layoutFra.TableFragment
+import com.example.androidlesson.layoutFra.*
 
 class MyFragmentFactory {
     // 这是未完全使用视图绑定的版本
