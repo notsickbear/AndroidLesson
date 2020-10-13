@@ -21,6 +21,7 @@
 
     <item
         android:id="@+id/item_gri"
+        android:icon="@color/colorPrimaryDark"
         android:title="@string/gridLayout" />
 
 </menu>

@@ -60,7 +60,6 @@ class MenuActivity : FragmentActivity() {
     private fun getInstanceByIndex(index: Int): Fragment? {
         var fragment: Fragment? = null
         when (index) {
-            /*meanSub -> fragment = LinearFragment()*/
             R.id.item_lin -> fragment = LinearFragment()
             submenuLin -> fragment = LinearFragment()
             R.id.item_tab -> fragment = TableFragment()
