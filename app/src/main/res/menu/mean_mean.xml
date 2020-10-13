@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <item
+        android:id="@+id/item_lin"
+        android:title="@string/linearLayout" />
+
+    <item
+        android:id="@+id/item_tab"
+        android:title="@string/tableLayout" />
+
+    <item
+        android:id="@+id/item_abs"
+        android:title="@string/absoluteLayout" />
+
+    <item
+        android:id="@+id/item_rel"
+        android:title="@string/relativeLayout" />
+
+    <item
+        android:id="@+id/item_gri"
+        android:title="@string/gridLayout" />
+
+</menu>

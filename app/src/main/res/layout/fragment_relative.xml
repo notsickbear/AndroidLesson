@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layoutFra.RelativeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/relative_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/sample_text" />
+
+    <CheckBox
+        android:id="@+id/relative_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/relative_button"
+        android:layout_marginStart="100dp"
+        android:text="@string/sample_text" />
+
+    <ImageButton
+        android:id="@+id/relative_imagebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/relative_text"
+        android:layout_marginBottom="-200dp"
+        android:contentDescription="@string/sample_text"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/relative_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/relative_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="-100dp"
+        android:text="@string/hello_blank_fragment" />
+
+</RelativeLayout>
